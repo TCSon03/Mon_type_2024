@@ -1,0 +1,21 @@
+.shop {
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 64px;
+}
+.box-left {
+  /* background-color: aliceblue; */
+  padding: 0 2%;
+}
+.box-right {
+  /* background-color: aliceblue; */
+  padding: 0%;
+  /* box-sizing: border-box; */
+}
+.box-left input.input-shop {
+  width: 100%;
+  margin-left: 0;
+  /* padding: ; */
+}
+@import "swiper/swiper-bundle.css";
