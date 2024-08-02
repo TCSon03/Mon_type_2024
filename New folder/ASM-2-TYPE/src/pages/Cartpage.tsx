@@ -16,9 +16,11 @@ const Cartpage = () => {
   };
 
   const removeItem = (id: string | number) => {
-    const updatedCart = cart.filter((item) => item.id !== id);
-    setCart(updatedCart);
-    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    if (confirm("Bạn có chắc muốn xóa khỏi giỏ hàng?")) {
+      const updatedCart = cart.filter((item) => item.id !== id);
+      setCart(updatedCart);
+      localStorage.setItem("cart", JSON.stringify(updatedCart));
+    }
   };
 
   const increaseQuantity = (id: string | number) => {
