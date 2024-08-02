@@ -69,6 +69,14 @@ const Shop = () => {
               <a href="">Groceries</a>
             </div>
           </div>
+          {/* <select value={selectedCategory} onChange={handleCategoryChange}>
+            <option value="">Tất cả danh mục</option>
+            {categories.map((category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
+            ))}
+          </select> */}
         </section>
         <section className="trending-product box-right" id="trending">
           <div className="center-text">

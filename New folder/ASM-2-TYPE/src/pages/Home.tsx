@@ -17,7 +17,7 @@ const Home = () => {
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user") || "{}");
     setUser(user);
-    console.log(!!user);
+    // console.log(!!user);
   }, []);
 
   const addToCart = (product: Product) => {

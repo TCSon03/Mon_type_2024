@@ -672,6 +672,9 @@
         "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png"
       ],
       "thumbnail": "https://product.hstatic.net/1000392326/product/mso5012_-_618k___mqd5011_-_738k_1__fc16ea57a7154a10bec2db0e49e4326b_master.jpg"
+    },
+    {
+      "id": 19
     }
   ],
   "users": [
@@ -685,6 +688,11 @@
       "password": "$2a$10$QQ4AkCBpsDXVwm.oCRIHA.VAC1arUg1fqpWjzEXKBo54lMa.zwudi",
       "id": 3,
       "role": "admin"
+    },
+    {
+      "email": "them@gmail.com",
+      "password": "$2a$10$PUYRtBDdGCeJLxQD1wvoReAuR8CY2418zllshewMj9DTMcqh5MHx6",
+      "id": 5
     }
   ]
 }

@@ -297,6 +297,11 @@ header.sticky {
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 400;
+
+  &:hover {
+    color: #ee1c47;
+    font-weight: 400;
+  }
 }
 .price p {
   color: #151515;

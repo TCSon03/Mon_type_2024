@@ -5,7 +5,6 @@ import { User } from "../interfaces/User";
 import instance from "../apis";
 import { Link, useNavigate } from "react-router-dom";
 
-import bgr from "../assets/banner-3.png";
 import { useState } from "react";
 
 type Props = {
@@ -41,7 +40,9 @@ const AuthForm = ({ isLogin }: Props) => {
       localStorage.setItem("user", JSON.stringify(data.user));
       nav("/");
     } else {
-      await instance.post("/register", user);
+      if (confirm("dang ki thanh cong")) {
+        await instance.post("/register", user);
+      }
       nav("/login");
     }
   };
